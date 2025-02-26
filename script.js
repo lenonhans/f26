@@ -10,7 +10,7 @@ for (let i = 1; i <= 100; i++) {
     console.log(i);
   }
 }
-*/
+
 
 
 let studentGrade;
@@ -29,3 +29,18 @@ if (studentGrade < 0 || studentGrade > 100) {
 } else {
     console.log("F");
 }
+
+
+for (let i = 2; i <= 20; i+=2) {
+    console.log(i);
+}
+*/
+
+const randomNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let sum = 0;
+
+for (let i = 0; i < randomNumbers.length; i++) {
+  sum += randomNumbers[i];
+}
+console.log(sum);
+
